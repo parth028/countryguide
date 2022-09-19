@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="oned">
+      <div class="transbox">
+        <div class="searchbox">
+          <input
+            type="text"
+            id="country-inp"
+            placeholder="Enter a country name here.."
+          />
+          <button id="presshit" onclick="showhide()">Search</button>
+        </div>
+      </div>
+    </div>
+    <div class="twod" id="two-d" style="display: none">
+      <div class="container">
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

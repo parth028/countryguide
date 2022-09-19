@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("Country.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.oned {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.twod {
+  justify-content: center;
+}
+.transbox {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.721);
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.searchbox {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+
+.searchbox input {
+  font-size: 15px;
+  padding: 0 2px;
+  border: none;
+  border-bottom: 2px solid rgb(251, 251, 251);
+  outline: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+.searchbox button {
+  font-size: 15px;
+  background-color: rgb(27, 97, 172);
+  color: aliceblue;
+  padding: 8px 10px 8px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.searchbox button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#result {
+  padding: 20px;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.721);
+  /* background: rgba(243, 238, 238, 0.756); */
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0.95;
+}
+.container .flag-img {
+  display: flex;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid rgba(234, 231, 231, 0.808);
+  border-radius: 8px;
+  padding: 5px;
+}
+.container h2 {
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+  background-color: #cbcdd7;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: rgb(143, 208, 255);
+  font-weight: bold;
+}
+.container span {
+  color: white;
+}
